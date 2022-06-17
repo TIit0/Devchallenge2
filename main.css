@@ -63,6 +63,7 @@ list-style: none;
 }
 
 .main {
+    position: relative;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -135,9 +136,7 @@ list-style: none;
     height: 9.5rem;
 }
 
-.designer__img--container {
 
-}
 
 .designer__img--container--photo {
     width: 5rem;
@@ -168,6 +167,17 @@ list-style: none;
     font-size: 2.4rem;
     width: 28rem;
     margin-left: 2.8rem;
+}
+
+.devchallenges {
+    color: #A9A9A9;
+    bottom: 5%;
+    right: 50%;
+    transform: translatex(50%);
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
 }
 
 
@@ -246,6 +256,8 @@ list-style: none;
     .main__text {
         margin-bottom: 3rem;
     }
+
+    .devchallenges { font-size: 1rem; }
 }
 
 @media only screen and (max-width: 56.25em) { /* 900px */
